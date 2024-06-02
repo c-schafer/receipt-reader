@@ -53,3 +53,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+
+#item-list {
+  display: none;
+}

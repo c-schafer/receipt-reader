@@ -1,0 +1,24 @@
+{
+  "name": "receipt-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "homepage": "https://c-schafer.github.io/receipt-reader/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "receipt-reader"
+  },
+  "author": "Carter Schafer",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
